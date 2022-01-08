@@ -1,0 +1,38 @@
+﻿<Window x:Class="HW11WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW11WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="230">
+    <Grid>
+        <Path Fill="Red" Stroke="Black">
+            <Path.Data>
+                <CombinedGeometry>
+                    <CombinedGeometry.Geometry1>
+                        <RectangleGeometry Rect="20,90,180,20">
+                            <RectangleGeometry.Transform>
+                                <RotateTransform CenterX="110" CenterY="110" Angle="-45"/>
+                            </RectangleGeometry.Transform>
+                        </RectangleGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <GeometryGroup>
+                            <EllipseGeometry RadiusX="100" RadiusY="100" Center="110,100">
+                            </EllipseGeometry>
+                            <EllipseGeometry RadiusX="80" RadiusY="80" Center="110,100">
+                            </EllipseGeometry>
+                        </GeometryGroup>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+
+            </Path.Data>
+        </Path>
+        <Path Data="M114.66667,544.93333" Fill="DarkGreen" HorizontalAlignment="Left" Height="1" Margin="114.667,544.933,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Data="M80,526.8 L108.3,527.89999 C108.3,527.89999 129.10001,471.30122 116.3,432.90207 103.5,394.50292 85.7,377.20356 88.10002,341.20435 90.500039,305.20515 91.23332,304.03861 98.433378,266.43944 105.63344,228.84028 127.10038,206.30708 134.30044,199.90722 141.50049,193.50736 147.1672,192.67404 147.03386,192.54071 146.90053,192.40738 128.90012,199.47411 127.30012,198.14081 127.30012,198.14081 117.36676,199.74101 114.70008,200.00767 112.03341,200.27433 93.900034,198.7077&#xD;&#xA;90.700026,197.90772 87.500018,197.10774 64.299962,190.70789 63.099959,187.50797 62.431014,185.72416 67.951555,198.85552 73.500301,217.30742 75.195267,222.94389 78.217891,233.76248 79.10029,238.9069 80.511135,247.13218 78.731839,278.83878 75.900296,282.10586 72.768551,285.71932 68.862181,305.07584 68.636227,319.4597 68.52235,326.70895 65.914868,333.50554 66.221966,341.81318 66.633683,352.95098 68.778978,362.96147 69.500308,373.63696 70.718592,391.66722&#xD;&#xA;74.162842,406.77983 74.300299,413.10269 74.407057,418.01341 75.071061,441.50917 72.500302,452.20176 70.740527,459.52122 67.994434,472.4631 65.700315,480.60109 58.788889,505.11815 56.001407,501.83764 54.90059,505.80049 52.900593,513.00032 41.100293,525.60002 41.500293,527.19998 41.900292,528.79994 80,526.8 80,526.8 z" Fill="DarkGreen" HorizontalAlignment="Left" Height="341.562" Margin="41.49,187.338,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="106.546"/>
+        <Path Data="M87.6,346.53333 C87.6,346.53333 97.233332,364.70033 130.83333,369.50033 164.43333,374.30033 192.7008,363.10033 202.83421,359.90033 212.96762,356.70033 222.56809,357.23362 214.568,352.96697 206.56792,348.70032 191.63467,330.56705 177.23448,323.63375 162.8343,316.70044 152.16749,309.23425 137.76731,318.30082 123.36712,327.36738 119.1004,323.10075 103.1002,333.23398 87.099992,343.3672 87.6,346.53333 87.6,346.53333 z" Fill="LightGreen" HorizontalAlignment="Left" Height="57.567" Margin="87.598,314.112,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="130.939"/>
+        <Path Data="M67,356.4 C67,356.4 68.9,384.69999 40.1,389.49999 11.3,394.29999 12.100186,393.5 7.3002185,393.5 2.5002507,393.5 7.3002186,354.29999 22.500117,350.29999 37.700015,346.3 67,356.4 67,356.4 z" Fill="Green" HorizontalAlignment="Left" Height="45.187" Margin="5.512,349.363,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="62.514"/>
+        <Path Data="M303.7,422.4" Fill="DarkGreen" HorizontalAlignment="Left" Height="1" Margin="303.7,422.4,-81.1,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+    </Grid>
+</Window>
